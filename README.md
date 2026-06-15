@@ -1,12 +1,12 @@
 # BME280 Cloud Logger
 BME280 Cloud Logger
 
-Real-time environmental monitoring with a Raspberry Pi Pico W and BME280 sensor, logging temperature, humidity, and pressure data to Google Sheets via the Sheets API. Built with MicroPython.
+This is a real-time environmental monitoring with a Raspberry Pi Pico W and BME280 sensor which logs temp, humidity, and pressure data to Google Sheets via the Sheets API. Built with MicroPython.
 
 
 ## Overview
 
-This project turns a Raspberry Pi Pico W into a wireless environmental sensor station. Every few seconds it reads temperature, humidity, and atmospheric pressure from a BME280 sensor and pushes the readings to a live Google Sheet — no additional server or cloud infrastructure required.
+This project turns a Raspberry Pi Pico W into a wireless environmental sensor  Every few seconds it reads the temp, humidity and pressure from a BME280 sensor and pushes the readings to a Google Sheet.
 
 
 ## Hardware Required
