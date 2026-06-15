@@ -75,7 +75,7 @@ The device will:
 Sample Output
 ```
 Connected to WiFi: MyNetwork
-IP: 192.168.1.42
+IP: 123.456.7.89
 --- Reading 1 ---
 Temperature: 21.4°C
 Humidity: 58.2%
