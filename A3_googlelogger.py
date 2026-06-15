@@ -6,10 +6,10 @@ import json
 import time
 import gc
 
-SSID = "iPhone"
-PASSWORD = "Azhaar123"
+SSID = "add your hotspot username"
+PASSWORD = "add hotspot password"
 
-SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxD1eVe9aavv_z_qMbOKojaNzNNLcHGCBIZfJ5bjNQS-0anx_xgtAA-k3JWOzVlcByX/exec"
+SCRIPT_URL = "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec"
 TIME_URL = "https://timeapi.io/api/Time/current/zone?timeZone=Europe/London"
 
 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)

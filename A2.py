@@ -3,8 +3,8 @@ import bme280
 import network
 from time import sleep
 
-SSID = "iPhone"
-PASSWORD = "Azhaar123"
+SSID = "add hotspot username"
+PASSWORD = "add hotspot password"
 
 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)
 bme = bme280.BME280(i2c=i2c)
